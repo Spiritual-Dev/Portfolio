@@ -38,9 +38,9 @@ function App() {
           About Me
         </motion.h2>
         <p>
-          I’m a backend developer passionate about building scalable APIs with
-          FastAPI, PostgreSQL, and Python. I also tutor aspiring developers in
-          Python programming.
+          I’m a backend developer passionate about building scalable APIs and
+          web systems using FastAPI, PostgreSQL, and Python. I also mentor
+          aspiring developers and focus on clean, production-ready code.
         </p>
       </section>
 
@@ -53,35 +53,86 @@ function App() {
         >
           Projects
         </motion.h2>
+
         <div className="projects-grid">
+          {/* MyMech Project */}
           <motion.div
             className="project-card"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
+            <img
+              src="/assets/images/mymech-thumbnail.jpg"
+              alt="MyMech Project"
+              className="project-image"
+            />
             <h3>MyMech</h3>
-            <p>Mechanic Finder App with FastAPI + PostgreSQL + PostGIS</p>
-          </motion.div>
-
-          <motion.div
-            className="project-card"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 200 }}
-          >
-            <h3>AI Training Notes</h3>
             <p>
-              Illustrated notes on AI subsets, creativity & productivity with
-              diagrams.
+              A mechanic finder web app that connects car owners to nearby
+              mechanics using geolocation. Built with FastAPI, PostgreSQL,
+              PostGIS, JWT authentication, and Leaflet map integration.
             </p>
+            <a
+              href="https://github.com/Spiritual-Dev/MyMech"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Project →
+            </a>
           </motion.div>
 
+          {/* Pulse Apparel Project */}
           <motion.div
             className="project-card"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
-            <h3>Python Tutoring</h3>
-            <p>Beginner-friendly Python tutoring materials & resources.</p>
+            <img
+              src="/assets/images/pulseapparel-thumbnail.jpg"
+              alt="Pulse Apparel"
+              className="project-image"
+            />
+            <h3>Pulse Apparel</h3>
+            <p>
+              A fashion brand website designed with HTML, CSS, and JavaScript to
+              showcase collections and create a modern shopping experience.
+            </p>
+            <a
+              href="https://github.com/Spiritual-Dev/Pulse-Apparel"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Project →
+            </a>
+          </motion.div>
+
+          {/* Morenbee Grocery Store App */}
+          <motion.div
+            className="project-card"
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 200 }}
+          >
+            <img
+              src="/assets/images/morenbee-thumbnail.jpg"
+              alt="Morenbee Grocery Store App"
+              className="project-image"
+            />
+            <h3>Morenbee Grocery Store App</h3>
+            <p>
+              A retail management system that handles inventory, billing, and
+              transactions. Built in Python and being upgraded with FastAPI for
+              backend automation.
+            </p>
+            <a
+              href="https://github.com/Spiritual-Dev/Morenbee-Grocery-Store"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Project →
+            </a>
           </motion.div>
         </div>
       </section>
