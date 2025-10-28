@@ -61,25 +61,12 @@ function App() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
-            <img
-              src="/assets/images/mymech-thumbnail.jpg"
-              alt="MyMech Project"
-              className="project-image"
-            />
             <h3>MyMech</h3>
             <p>
               A mechanic finder web app that connects car owners to nearby
-              mechanics using geolocation. Built with FastAPI, PostgreSQL,
+              mechanics using geolocation data. Built with FastAPI, PostgreSQL,
               PostGIS, JWT authentication, and Leaflet map integration.
             </p>
-            <a
-              href="https://github.com/Spiritual-Dev/MyMech"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
           </motion.div>
 
           {/* Pulse Apparel Project */}
@@ -88,24 +75,11 @@ function App() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
-            <img
-              src="/assets/images/pulseapparel-thumbnail.jpg"
-              alt="Pulse Apparel"
-              className="project-image"
-            />
             <h3>Pulse Apparel</h3>
             <p>
               A fashion brand website designed with HTML, CSS, and JavaScript to
-              showcase collections and create a modern shopping experience.
+              showcase collections and provide a modern shopping experience.
             </p>
-            <a
-              href="https://github.com/Spiritual-Dev/Pulse-Apparel"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
           </motion.div>
 
           {/* Morenbee Grocery Store App */}
@@ -114,25 +88,12 @@ function App() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
-            <img
-              src="/assets/images/morenbee-thumbnail.jpg"
-              alt="Morenbee Grocery Store App"
-              className="project-image"
-            />
             <h3>Morenbee Grocery Store App</h3>
             <p>
               A retail management system that handles inventory, billing, and
-              transactions. Built in Python and being upgraded with FastAPI for
-              backend automation.
+              transactions. Initially built in Python and now being upgraded
+              with a FastAPI backend for database automation.
             </p>
-            <a
-              href="https://github.com/Spiritual-Dev/Morenbee-Grocery-Store"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
           </motion.div>
         </div>
       </section>
